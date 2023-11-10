@@ -1,9 +1,8 @@
 import pyautogui as pg
 import time
 
-qx = "resource\\qx.png"
-qd = "resource\\qd.png"
-ksxx = "resource\\ksxx.png"
+qx = "qx.png"
+qd = "qd.png"
 pos = pg.locateOnScreen(ksxx)
 
 def go(sleep_time):
